@@ -5,7 +5,7 @@ var app = express();
 
 // respond with "hello world" for requests that hit root "/"
 app.get('/', (req, res) => {
-    res.send('this is the one!!!!');
+    res.send('Hello world');
 });
 
 // listen to port 3000 by default
